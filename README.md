@@ -12,9 +12,37 @@ AWS Account
 
 ## How to use
 - clone the repo locally
-- export AWS_ACCESS_KEY_ID="XXXXXXXXXXX"
-- export export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXXXXX"
-- change to downloaded directory
-- terraform init
-- terraform plan
-- terraform apply
+```
+git clone https://github.com/berchev/terraform-module-two-regions
+```
+- change into the new directory
+```
+cd terraform-module-two-regions
+```
+
+- set AWS terraform variables
+```
+export AWS_ACCESS_KEY_ID="XXXXXXXXXXX"
+export  AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXXXXX"
+```
+
+- download terraform providers code
+```
+terraform init
+```
+
+- run terraform plab to see the actions will be performed
+```
+terraform plan
+```
+
+- create the resources
+```
+terraform apply
+```
+
+- destroy the resources after they are no longer needed
+```
+terraforn destroy
+```
+
