@@ -43,6 +43,6 @@ terraform apply
 
 - destroy the resources after they are no longer needed
 ```
-terraforn destroy
+terraform destroy
 ```
 
