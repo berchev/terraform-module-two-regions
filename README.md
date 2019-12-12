@@ -7,8 +7,8 @@ In order to accomplish this task, definig of two providers is needed.
 bucket name is cointrolled by variable.
 
 ## Requirements
-terraform version 0.12.x installed
-AWS Account 
+- terraform version 0.12.x installed
+- AWS Account 
 
 ## How to use
 - clone the repo locally
